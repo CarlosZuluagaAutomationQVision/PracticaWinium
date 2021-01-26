@@ -151,7 +151,7 @@
             <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 23-01-2021 14:32</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 25-01-2021 20:12</span>
     <br style="clear:left"/>
 </div>
 
@@ -189,9 +189,9 @@
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-exclamation-triangle error-icon fa-2x' title='ERROR'></i></a></span>
                             <span class="test-case-title">
-                                <span class="success-color">Realizar el envio de un correo electronico con un archivo espec&iacute;fico
+                                <span class="error-color">Realizar el envio de un correo electronico con un archivo espec&iacute;fico
                                     <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -208,31 +208,67 @@
 
     <div id="beforetable"></div>
     <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">Null pointer exception</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-overall">
+            <div class="card">
+                <div class="card-header">
+                    <h4>java.lang.NullPointerException </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>tasks.Cargar.performAs(Cargar.java:23)<br />stepdefinitions.ActualizarFotoPerfilOrange.actualizarFotoPerfil(ActualizarFotoPerfilOrange.java:20)<br />io.cucumber.java.Invoker.invoke(Invoker.java:27)<br />io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:27)<br />io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)<br />io.cucumber.core.runner.TestStep.executeStep(TestStep.java:64)<br />io.cucumber.core.runner.TestStep.run(TestStep.java:49)<br />io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:46)<br />io.cucumber.core.runner.TestCase.run(TestCase.java:51)<br />io.cucumber.core.runner.Runner.runPickle(Runner.java:66)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:83)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:24)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:227)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:54)<br /></pre>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+                <div class="panel-body">
+                    <a href="pagesource9042717939919222201.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
         <div class="slider-wrapper theme-default">
             <div id="slider">
-                <img src="2034b216c07e7b19f774abdd734f3e62cb52b445c3748e258c092795c7db22c4.png" title=" Dado que el actor desea abrir la pagina de 'Orange'" width="1920"/>
-                <img src="2034b216c07e7b19f774abdd734f3e62cb52b445c3748e258c092795c7db22c4.png" title=" Carlos abrir" width="1920"/>
-                <img src="2034b216c07e7b19f774abdd734f3e62cb52b445c3748e258c092795c7db22c4.png" title=" Carlos opens the https://opensource-demo.orangehrmlive.com/index.php/auth/login" width="1920"/>
-                <img src="2034b216c07e7b19f774abdd734f3e62cb52b445c3748e258c092795c7db22c4.png" title=" Carlos abrir (completed)" width="1920"/>
-                <img src="2034b216c07e7b19f774abdd734f3e62cb52b445c3748e258c092795c7db22c4.png" title=" Dado que el actor desea abrir la pagina de 'Orange' (completed)" width="1920"/>
-                <img src="53bfea3867228f6ca85e1ddb7e4a81c0566b2d1d75f677baa1b9b86bdf479318.png" title=" Dado que Carlos inicia sesion en la pagina de Orange" width="1920"/>
-                <img src="53bfea3867228f6ca85e1ddb7e4a81c0566b2d1d75f677baa1b9b86bdf479318.png" title=" Carlos iniciar sesion" width="1920"/>
-                <img src="53bfea3867228f6ca85e1ddb7e4a81c0566b2d1d75f677baa1b9b86bdf479318.png" title=" Carlos clicks on Ingresar Nombre Usuario" width="1920"/>
-                <img src="5b04e1f9daf37148f49ce7ef40aa9e8867c8ac767d5f1d3a96bfd52a8ed6b9fa.png" title=" Carlos enters 'Admin' into Ingresar Nombre Usuario" width="1920"/>
-                <img src="5a7d0886924d3e8161a5a34654306f94b9f47c1a7e225a4da0225a383338520b.png" title=" Carlos clicks on Ingresar Contrase&ntilde;a Usuario" width="1920"/>
-                <img src="8a246725876d37e385cfc93dbc4bc5de2d4fb4dfc59a17f9d23e666162b2125f.png" title=" Carlos enters 'admin123' into Ingresar Contrase&ntilde;a Usuario" width="1920"/>
-                <img src="c1022e2b16a4f863d1daf3f186f63112e6e4f839b066896f7b30aed95c2ff6b5.png" title=" Carlos clicks on Boton Inicio Sesion" width="1920"/>
-                <img src="c1022e2b16a4f863d1daf3f186f63112e6e4f839b066896f7b30aed95c2ff6b5.png" title=" Carlos iniciar sesion (completed)" width="1920"/>
-                <img src="c1022e2b16a4f863d1daf3f186f63112e6e4f839b066896f7b30aed95c2ff6b5.png" title=" Dado que Carlos inicia sesion en la pagina de Orange (completed)" width="1920"/>
-                <img src="612611ad5874bbc77c817ce1443702f42ca4293c4174f8d4d8b22d5de7068a2b.png" title=" Cuando actualice su foto de perfil" width="1920"/>
-                <img src="612611ad5874bbc77c817ce1443702f42ca4293c4174f8d4d8b22d5de7068a2b.png" title=" Carlos cargar" width="1920"/>
-                <img src="612611ad5874bbc77c817ce1443702f42ca4293c4174f8d4d8b22d5de7068a2b.png" title=" Carlos clicks on Ingresar Pagina My Info" width="1920"/>
-                <img src="0406da189dec9ed9674b256b54265fa3274fd14b266343703c4af4cb203efc60.png" title=" Carlos clicks on Acceder a la Foto de perfil" width="1920"/>
-                <img src="0406da189dec9ed9674b256b54265fa3274fd14b266343703c4af4cb203efc60.png" title=" Carlos clicks on Boton Seleccionar Archivo" width="1920"/>
-                <img src="ad5e592e98b5a6f37cc59755a9798d2ac00861733b6dd782e38fe57000c53495.png" title=" Carlos clicks on Acceder a la Foto de perfil" width="1920"/>
-                <img src="ad5e592e98b5a6f37cc59755a9798d2ac00861733b6dd782e38fe57000c53495.png" title=" Carlos cargar (completed)" width="1920"/>
-                <img src="ad5e592e98b5a6f37cc59755a9798d2ac00861733b6dd782e38fe57000c53495.png" title=" Cuando actualice su foto de perfil (completed)" width="1920"/>
-                <img src="ad5e592e98b5a6f37cc59755a9798d2ac00861733b6dd782e38fe57000c53495.png" title=" Entonces podemos visualizar la nueva fotografia: <span class='success-color'>SUCCESS</span>" width="1920"/>
+                <img src="a9ff38721c59d7eb93a6d597cea234246af32bdc62442fe41d315a073302e5d5.png" title=" Dado que el actor desea abrir la pagina de 'Orange'" width="1366"/>
+                <img src="a9ff38721c59d7eb93a6d597cea234246af32bdc62442fe41d315a073302e5d5.png" title=" Carlos abrir" width="1366"/>
+                <img src="a9ff38721c59d7eb93a6d597cea234246af32bdc62442fe41d315a073302e5d5.png" title=" Carlos opens the https://opensource-demo.orangehrmlive.com/index.php/auth/login" width="1366"/>
+                <img src="a9ff38721c59d7eb93a6d597cea234246af32bdc62442fe41d315a073302e5d5.png" title=" Carlos abrir (completed)" width="1366"/>
+                <img src="a9ff38721c59d7eb93a6d597cea234246af32bdc62442fe41d315a073302e5d5.png" title=" Dado que el actor desea abrir la pagina de 'Orange' (completed)" width="1366"/>
+                <img src="a7754f0ab0aa4efa3b79cebf3005ed6f6d03e7188cc5dab4e1827dfe5c1351ba.png" title=" Dado que Carlos inicia sesion en la pagina de Orange" width="1366"/>
+                <img src="a7754f0ab0aa4efa3b79cebf3005ed6f6d03e7188cc5dab4e1827dfe5c1351ba.png" title=" Carlos iniciar sesion" width="1366"/>
+                <img src="a7754f0ab0aa4efa3b79cebf3005ed6f6d03e7188cc5dab4e1827dfe5c1351ba.png" title=" Carlos clicks on Ingresar Nombre Usuario" width="1366"/>
+                <img src="60f4b69d1fd65dc414b93a1d8f784038dbae5b024a3119e188c4ef98defc31a1.png" title=" Carlos enters 'Admin' into Ingresar Nombre Usuario" width="1366"/>
+                <img src="b0b0d889059184c97a8ff895ef399bd05640caf43361f9ffc51ad1817f7325be.png" title=" Carlos clicks on Ingresar Contrase&ntilde;a Usuario" width="1366"/>
+                <img src="d3e330e6e55c56cf4fb6730b398414d6550986ebbdc2881ad9438f8340a2fb21.png" title=" Carlos enters 'admin123' into Ingresar Contrase&ntilde;a Usuario" width="1366"/>
+                <img src="819f9945dac59056ecefe9dce2127a1a44330cfc56f833f2217197ac1042ff8c.png" title=" Carlos clicks on Boton Inicio Sesion" width="1366"/>
+                <img src="819f9945dac59056ecefe9dce2127a1a44330cfc56f833f2217197ac1042ff8c.png" title=" Carlos iniciar sesion (completed)" width="1366"/>
+                <img src="819f9945dac59056ecefe9dce2127a1a44330cfc56f833f2217197ac1042ff8c.png" title=" Dado que Carlos inicia sesion en la pagina de Orange (completed)" width="1366"/>
+                <img src="ebfbe554a7e791437e996fd356c09e9a683d9feb05cc0f02127702d3fdda595a.png" title=" Cuando actualice su foto de perfil" width="1366"/>
+                <img src="ebfbe554a7e791437e996fd356c09e9a683d9feb05cc0f02127702d3fdda595a.png" title=" Carlos cargar" width="1366"/>
+                <img src="ebfbe554a7e791437e996fd356c09e9a683d9feb05cc0f02127702d3fdda595a.png" title=" Carlos clicks on Ingresar Pagina My Info" width="1366"/>
+                <img src="accdecad276e715c28ad5350de808da22f27f4f62687ec83d2a79fce23b3e316.png" title=" Carlos clicks on Acceder a la Foto de perfil" width="1366"/>
+                <img src="6d77596510bbcecc68bc3a53a189e35ce93007d5e9fc6c1881933222eb781c99.png" title=" Carlos clicks on Boton Seleccionar Archivo" width="1366"/>
+                <img src="6d77596510bbcecc68bc3a53a189e35ce93007d5e9fc6c1881933222eb781c99.png" title=" Carlos cargar (completed): <span class='error-color'>ERROR</span>" width="1366"/>
             </div>
         </div>
 

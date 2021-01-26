@@ -19,4 +19,5 @@ dependencies {
             "net.serenity-bdd:serenity-screenplay-rest:2.2.0",
             "net.serenity-bdd:serenity-screenplay-webdriver:2.2.0"
     testImplementation "net.serenity-bdd:serenity-cucumber5:2.2.0"
+    compile group: 'com.github.2gis.winium', name: 'winium-webdriver', version: '0.1.0-1'
 }
