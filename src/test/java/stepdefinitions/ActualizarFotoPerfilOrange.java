@@ -12,7 +12,7 @@ public class ActualizarFotoPerfilOrange {
 
     @Dado("que {word} inicia sesion en la pagina de Orange")
     public void iniciarSesion(String nombreUsuario) {
-        theActorInTheSpotlight().attemptsTo(IniciarSesion.enOrange(nombreUsuario));
+       theActorInTheSpotlight().attemptsTo(IniciarSesion.enOrange(nombreUsuario));
     }
 
     @Cuando("actualice su foto de perfil")

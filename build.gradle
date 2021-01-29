@@ -7,6 +7,9 @@ version '1.0-SNAPSHOT'
 
 repositories {
     mavenCentral()
+    flatDir{
+        dirs 'src/test/resources/libreria'
+    }
 }
 
 dependencies {
@@ -20,4 +23,5 @@ dependencies {
             "net.serenity-bdd:serenity-screenplay-webdriver:2.2.0"
     testImplementation "net.serenity-bdd:serenity-cucumber5:2.2.0"
     compile group: 'com.github.2gis.winium', name: 'winium-webdriver', version: '0.1.0-1'
+    compile name: 'winiun-screenplay-ultimo'
 }
