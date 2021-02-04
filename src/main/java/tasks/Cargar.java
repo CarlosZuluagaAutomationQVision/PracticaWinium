@@ -33,10 +33,11 @@ public class Cargar implements Task {
                 Click.on(BTN_SELECCIONAR_ARCHIVO));
         actor.attemptsTo(ClickDesk.on(DSK_TXT_NOMBRE));
         actor.attemptsTo(EnterDesk.theValue("C:\\Users\\QV-3967\\Documents\\Q-Vision\\Revision Pruebas\\PracticaGmailWinium\\src\\test\\resources\\data\\f4f6ccd5cf3a919facce327e990cdcfb.jpg").into(DSK_TXT_NOMBRE));
-        actor.attemptsTo(ClickDesk.on(DSK_LBL_ELEMENTOS));
-        actor.attemptsTo(ClickDesk.on(DKS_BTN_ABRIR));
-        actor.attemptsTo(ClickDesk.on(DKS_BTN_ABRIR));
-        actor.attemptsTo(HitDesk.the(Keys.ENTER).into(DKS_BTN_ABRIR));
+      //  actor.attemptsTo(ClickDesk.on(DSK_LBL_ELEMENTOS));
+      // actor.attemptsTo(ClickDesk.on(DKS_BTN_ABRIR));
+      // actor.attemptsTo(ClickDesk.on(DKS_BTN_ABRIR));
+        actor.attemptsTo(HitDesk.the(Keys.ENTER).into(DSK_LBL_ELEMENTOS));
+      //actor.attemptsTo(Hit.the(Keys.ENTER).into(BTN_UPLOAD));
         actor.attemptsTo(Click.on(BTN_UPLOAD));
         actor.attemptsTo(Click.on(LNK_IMAGEN));
     }

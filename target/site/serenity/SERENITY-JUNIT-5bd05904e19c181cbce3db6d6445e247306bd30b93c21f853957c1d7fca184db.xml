@@ -1,21 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="ADASDASD" skipped="0" tests="1" time="40.96" timestamp="2021-01-28 06:53:04"><testcase name="Realizar el envio de un correo electronico con un archivo específico"><error message="Element cannot be found (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-0TK4RSV', ip: '192.168.1.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'&#10;Driver info: org.openqa.selenium.winium.WiniumDriver&#10;Capabilities {app: , args: , debugConnectToRunningApp: true, innerPort: 9998, javascriptEnabled: true, keyboardSimulator: 1, launchDelay: 0, platform: ANY, platformName: ANY}&#10;Session ID: AwesomeSession&#10;*** Element info: {Using=xpath, value=//*[@AccessKey='Alt+A']}" type="org.openqa.selenium.NoSuchElementException">Element cannot be found (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="ADASDASD" skipped="0" tests="1" time="34.41" timestamp="2021-01-28 07:13:48"><testcase name="Realizar el envio de un correo electronico con un archivo específico"><error message="element not interactable&#10;  (Session info: chrome=87.0.4280.141)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-0TK4RSV', ip: '192.168.1.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\QV-3967\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:52139}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 639a74ca1781302b0cc3708ffeaa27df" type="org.openqa.selenium.ElementNotInteractableException">element not interactable
+  (Session info: chrome=87.0.4280.141)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-0TK4RSV', ip: '192.168.1.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
-Driver info: org.openqa.selenium.winium.WiniumDriver
-Capabilities {app: , args: , debugConnectToRunningApp: true, innerPort: 9998, javascriptEnabled: true, keyboardSimulator: 1, launchDelay: 0, platform: ANY, platformName: ANY}
-Session ID: AwesomeSession
-*** Element info: {Using=xpath, value=//*[@AccessKey='Alt+A']}</error><system-err>Element cannot be found (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\QV-3967\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:52139}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 639a74ca1781302b0cc3708ffeaa27df</error><system-err>element not interactable
+  (Session info: chrome=87.0.4280.141)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-0TK4RSV', ip: '192.168.1.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
-Driver info: org.openqa.selenium.winium.WiniumDriver
-Capabilities {app: , args: , debugConnectToRunningApp: true, innerPort: 9998, javascriptEnabled: true, keyboardSimulator: 1, launchDelay: 0, platform: ANY, platformName: ANY}
-Session ID: AwesomeSession
-*** Element info: {Using=xpath, value=//*[@AccessKey='Alt+A']}&#13;
-tasks.Cargar.performAs(Cargar.java:37)&#13;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\QV-3967\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:52139}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 639a74ca1781302b0cc3708ffeaa27df&#13;
+tasks.Cargar.performAs(Cargar.java:40)&#13;
 stepdefinitions.ActualizarFotoPerfilOrange.actualizarFotoPerfil(ActualizarFotoPerfilOrange.java:20)&#13;
 io.cucumber.java.Invoker.invoke(Invoker.java:27)&#13;
 io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:27)&#13;

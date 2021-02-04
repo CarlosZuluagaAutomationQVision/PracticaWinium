@@ -11,7 +11,7 @@ public class OrangeUserInterface {
     public static final Target BTN_SELECCIONAR_ARCHIVO = Target.the("Boton Seleccionar Archivo").located(By.xpath("//*[@id='frmPhoto']/fieldset/ol/li/label[1]"));
     public static final TargetDesktop DSK_TXT_NOMBRE = TargetDesktop.the("").located(By.name("Nombre:"));
     public static final TargetDesktop DSK_LBL_ELEMENTOS = TargetDesktop.the("").located(By.name("Vista Elementos"));
-    public static final TargetDesktop DKS_BTN_ABRIR = TargetDesktop.the("").located(By.xpath("//*[@AccessKey='Alt+A']"));
+    public static final TargetDesktop DKS_BTN_ABRIR = TargetDesktop.the("").located(By.name("abrir"));
     public static final Target BTN_UPLOAD = Target.the("Boton Subir Archivo").located(By.id("btnSave"));
 
 }
